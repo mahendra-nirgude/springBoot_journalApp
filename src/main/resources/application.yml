@@ -1,0 +1,31 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  profiles:
+    active: dev
+  main:
+    allow-circular-references: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: maxnirgude32@gmail.com
+    password: vhmk fvck nezu bcuj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+logging:
+  level:
+    com:
+      edigest:
+        mongodb: INFO
+
+weather:
+  api:
+    key: aa790cf8d9ec065e9e6656dc81af5710
+
